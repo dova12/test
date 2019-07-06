@@ -1,0 +1,29 @@
+현재 작업 상태 보기
+jobs
+[1] Stopped vi
+
+Background에서 작업 실행하기
+시간이 오래걸리는 작업에 유용
+명령어 뒤에 & 붙이면 백그라운드 실행
+
+cp /home/taemin/*.zip /home &
+
+
+Foreground 작업을 Background로 옮기기
+Ctrl + Z
+
+bg %1
+fg %1 
+
+1은 jobs 를 통해 ID 값을 알 수 있음.
+
+
+작업 끝내기
+kill %1
+
+
+백그라운드 작업을 중지
+jobs 로 ID 알고
+fg %*
+kill %* // 참고 ^Z 는 Ctlr + Z 를 나타냄
+

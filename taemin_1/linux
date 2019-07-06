@@ -1,0 +1,17 @@
+in vim <:help key-notation > show keys like 
+
+notation meaning            = it shows Mappings
+<CR>     carriage return 
+so CR means usually Enter key in normal keyboard
+
+
+Why <special keys> ?
+
+While i can use literal keys in mapping definitions (the Enter key would appear as ^M, or even
+just as an addiational new line, depanding on the settinfgs), 
+Vim provides a special key notation for key (combinations), so that is is easier to define 
+(it means i don't have to use <i_CTRL-V> to literally insert the special character) and
+understand (<A-a> better expresses the intention than the equivalent á) the mappings.
+
+
+so how can i know about mapping ??

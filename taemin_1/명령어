@@ -1,0 +1,9 @@
+locate 명령은 미리 만들어 놓은 DB파일에서 파일 검색하기 때문에 최근에 삭제된 파일도 검색
+
+이런 문제를 피하기 위해 updatedb 를 실행. >> updatedb 는 크론(cron)에 등록 되어있음.
+>> 매일 새벽에 자동으로 시작됨.
+
+Because of command locate search files with pre-made DBfile , it also search files which deleted recently
+
+to avoid like this problem, run updatedb. >> updatedb is registed in cron.
+>> it automatically run every dawn 
